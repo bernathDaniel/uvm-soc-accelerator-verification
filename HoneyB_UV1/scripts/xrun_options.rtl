@@ -1,0 +1,48 @@
+############################################################
+#                       xrun options                       #
+#----------------------------------------------------------#
+#                                                          #
+# RUN CMD : xrun -f ../scripts/xrun_options.rtl            #
+#                                                          #
+############################################################
+
+# Includes all the necessary flags and files to run the UVM TB.
+
+-sv
+-uvm
+-debug
+#-gui
+-access +rwc
+-timescale 1ns/1ps
+-seed random             # MEM_MODEL RANDOMIZATION ENABLE KNOB
+-coverage u              # COVERAGE SAMPLING ENABLER BY XCELIUM - MUST USE FOR COVERAGE!!
+
+# Xcelium Warning Suppressions
+-nowarn DLCVAR
+-nowarn DLCOMB
+-nowarn DLCLIB
+-nowarn COVCGN
+-nocopyright
+
+
+# Standard UVM library
++define+UVM_NO_DEPRECATED 
+
+
+# Files to include
+#-incdir ../src/tb/xlr_mem/sv
+#-incdir ../src/tb/xlr_gpp/sv
+#-incdir ../src/tb/top/sv
+#-incdir ../src/tb/top_test/sv
+
+
+-f ../src/uvm_src_list.txt
+-f ../src/dut_src_list.txt
+
+
+# Simulation scripts
+# -input ../scripts/honeyB_V6.svcf
+
+##### OLD
+# -input ../scripts/simulation.tcl
+#-input ../scripts/gpp_compare.tcl
