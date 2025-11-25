@@ -14,8 +14,8 @@ featuring a unified testbench architecture, dual-agent support, and integration-
 **Instructor:** Eliyahu Levi  
 
 ## Repository Structure
-- `HoneyB_V7/` — Final version (official submission).  
-- `HoneyB_Prev_Versions/` — Archived earlier versions (V1–V6, VT, and backups).  
+- `HoneyB_UV1/` — Final version (official submission).  
+- `HoneyB_Prev_Versions/` — Archived earlier versions (V1–V7, VT, and backups).  
 - `LICENSE` — MIT License.  
 
 ## License
