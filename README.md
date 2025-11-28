@@ -1,6 +1,6 @@
 # Comprehensive UVM Verification Ecosystem for SoC Accelerator Validation
 
-This repository contains the final project developed at the  
+This repository contains the capstone project developed at the  
 **Alexander Kofkin Faculty of Engineering, Bar-Ilan University**  
 **Nano-Electronics Department – EnICS Labs**  
 
