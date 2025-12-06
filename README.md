@@ -20,10 +20,3 @@ For detailed implementation architecture, see [`docs/UVM_Verification_Architectu
 
 **Academic Supervisor:** Prof. Adam Teman  
 **Instructor:** Eliyahu Levi  
-
-## Repository Structure
-- `HoneyB_UV1/` — Final version (official submission).  
-- `HoneyB_Prev_Versions/` — Archived earlier versions (V1–V7, VT, and backups).  
-
-## License
-Released under the MIT License. See [LICENSE](LICENSE) for details.
