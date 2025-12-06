@@ -16,7 +16,6 @@ featuring a unified testbench architecture, dual-agent support, and integration-
 ## Repository Structure
 - `HoneyB_UV1/` — Final version (official submission).  
 - `HoneyB_Prev_Versions/` — Archived earlier versions (V1–V7, VT, and backups).  
-- `LICENSE` — MIT License.  
 
 ## License
 Released under the MIT License. See [LICENSE](LICENSE) for details.
