@@ -7,6 +7,14 @@ This repository contains the capstone project developed at the
 It provides a **complete and scalable UVM-based verification environment** for SoC accelerator validation,
 featuring a unified testbench architecture, dual-agent support, and integration-ready RAL files.
 
+## Documentation
+
+For detailed implementation architecture, see [`docs/UVM_Verification_Architecture.pdf`](docs/UVM_Verification_Architecture.pdf) (Chapter 4 from project documentation), which covers:
+- Multi-layer abstraction framework
+- Memory agent dual-mode architecture
+- Key method implementations and design patterns
+- Debug infrastructure and validation approach
+
 ## Author
 - **Daniel Bernath**
 
