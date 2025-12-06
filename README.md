@@ -9,7 +9,7 @@ featuring a unified testbench architecture, dual-agent support, and integration-
 
 ## Documentation
 
-For detailed implementation architecture, see [`docs/UVM_Verification_Architecture.pdf`](docs/UVM_Verification_Architecture.pdf) (Chapter 4 from project documentation), which covers:
+For detailed implementation architecture, see [`docs/UVM_Technical_Implementation.pdf`](docs/UVM_Technical_Implementation.pdf) (Chapter 4 from project documentation), which covers:
 - Multi-layer abstraction framework
 - Memory agent dual-mode architecture
 - Key method implementations and design patterns
