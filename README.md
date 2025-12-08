@@ -30,6 +30,9 @@ This Verification environment validates a hardware accelerator with dual memory 
 
 - **Event-based transaction model:** Simplifies component design by encapsulating event-specific signal handling (`rd`, `wr`, reset events) in transaction classes. Verification components use simple method calls without managing signal selection or event-specific logic.
 
+- **Custom debug infrastructure:** Replaces verbose UVM messaging with simplified, consistently-formatted output. Reduces cognitive load during extended debug sessions, enabling faster visual scanning and rapid iteration on bug resolution.
+
+- 
 ## Documentation
 
 For detailed implementation architecture, see [`docs/UVM_Technical_Implementation.pdf`](docs/UVM_Technical_Implementation.pdf) (Chapter 4 from project documentation), which covers:
