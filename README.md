@@ -12,7 +12,7 @@ featuring a unified testbench architecture, dual-agent support, and integration-
 ![UVM Verification Environment Architecture](docs/architecture_overview.png)
 *Complete UVM verification ecosystem showing agents, environment hierarchy, and signal flow*
 
-### Architecture
+### Architecture Highlights
 
 
 
