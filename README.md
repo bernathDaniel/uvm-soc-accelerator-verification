@@ -15,9 +15,14 @@ featuring a unified testbench architecture, dual-agent support, and integration-
 ### Architecture Highlights
 
 - **Dual-agent system with unified control:** MEM agent and GPP/GPR (General Purpose Registers) agent architecture managed through centralized Top Test Class control center, providing single point of configuration for testbench behavior.
+
 - **Configurable memory agent:** Dual-mode operation via UVM factory overrides - sequence-driven mode (driver+sequencer+sequences) for directed testing vs. reactive mode (service driver + sandbox memory) for responsive DUT-initiated transactions.
+
 - **Centralized configuration control:** Top Test Class provides unified control point for testbench behavior - agent mode selection (factory overrides), functional mode switching (MATMUL/CALCOPY), memory initialization policies (global and per-memory), coverage parameters, and sequence selection - enabling test customization without modifying component code.
-- **Event-based transaction model:** Transactions decouple component responsibilities - monitors/drivers focus on protocol-specific behavior while transaction classes handle signal mapping, printing, and data management through virtual method hooks (do_print, do_copy, do_compare and more). 
+
+- **Event-based transaction model:** Transactions decouple component responsibilities - monitors/drivers focus on protocol-specific behavior while transaction classes handle signal mapping, printing, and data management through virtual method hooks (do_print, do_copy, do_compare and more).
+
+- 
 
 ### Key Features
 
