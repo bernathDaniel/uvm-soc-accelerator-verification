@@ -16,13 +16,15 @@ This Verification environment validates a hardware accelerator with dual memory 
 
 ### Architecture Highlights
 
+- **Dual-agent verification architecture:** MEM agent handles memory transaction validation (XMEM interface), GPP agent manages control/status register communication, enabling independent verification of data path and control flow.
+
 - **Configurable memory agent:** Dual-mode operation via UVM factory overrides - sequence-driven mode (driver+sequencer+sequences) for directed testing vs. reactive mode (service driver + sandbox memory) for responsive DUT-initiated transactions.
+
+- **Memory sandbox:** Byte-level granularity with per-byte randomization (configurable ranges, signed values) and flexible initialization policies (random, file-based, uninitialized) per memory. Integrated write dump debugging with configurable limits enables targeted debug without testbench modifications.
 
 - **Centralized configuration control:** Top Test Class provides unified control point for testbench behavior - agent mode selection (factory overrides), functional mode switching (MATMUL/CALCOPY), memory initialization policies (global and per-memory), coverage parameters, and sequence selection - enabling test customization without modifying component code.
 
 - **Event-based transaction model:** Transactions decouple component responsibilities - monitors/drivers focus on protocol-specific behavior while transaction classes handle signal mapping, printing, and data management through virtual method hooks (do_print, do_copy, do_compare and more).
-
-- 
 
 ### Key Features
 
