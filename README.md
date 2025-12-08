@@ -32,7 +32,10 @@ This Verification environment validates a hardware accelerator with dual memory 
 
 - **Custom debug infrastructure:** Replaces verbose UVM messaging with simplified, consistently-formatted output. Reduces cognitive load during extended debug sessions, enabling faster visual scanning and rapid iteration on bug resolution.
 
+- **Shared utility infrastructure:** Centralized package defining semantic type abstractions (memory selection, functional modes, policy enumerations) and compile-time parameters across 35 verification files. Eliminates magic numbers, enables configuration changes without code modification, and ensures consistent naming conventions testbench-wide.
+
 - 
+
 ## Documentation
 
 For detailed implementation architecture, see [`docs/UVM_Technical_Implementation.pdf`](docs/UVM_Technical_Implementation.pdf) (Chapter 4 from project documentation), which covers:
