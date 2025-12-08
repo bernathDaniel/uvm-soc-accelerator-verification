@@ -28,7 +28,7 @@ This Verification environment validates a hardware accelerator with dual memory 
 
 ### Key Features
 
-- **Event-based transaction model:** Transactions decouple component responsibilities - monitors/drivers focus on protocol-specific behavior while transaction classes handle signal mapping, printing, and data management through virtual method hooks (do_print, do_copy, do_compare and more).
+- **Event-based transaction model:** Simplifies component design by encapsulating event-specific signal handling (`rd`, `wr`, reset events) in transaction classes. Verification components use simple method calls without managing signal selection or event-specific logic.
 
 ## Documentation
 
