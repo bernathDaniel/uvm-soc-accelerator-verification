@@ -12,9 +12,9 @@ featuring a unified testbench architecture, dual-agent support, and integration-
 ![UVM Verification Environment Architecture](docs/architecture_overview.png)
 *Complete UVM verification ecosystem showing agents, environment hierarchy, and signal flow*
 
-### Architecture Highlights
+This Verification environment validates a hardware accelerator with dual memory interfaces: 8× single-port SRAM memories (up to 1024×256b each) verified by the MEM agent, and a 32×32-bit general-purpose register file for control/status communication verified by the GPP agent.
 
-- **Dual-agent system with unified control:** MEM agent and GPP/GPR (General Purpose Registers) agent architecture managed through centralized Top Test Class control center, providing single point of configuration for testbench behavior.
+### Architecture Highlights
 
 - **Configurable memory agent:** Dual-mode operation via UVM factory overrides - sequence-driven mode (driver+sequencer+sequences) for directed testing vs. reactive mode (service driver + sandbox memory) for responsive DUT-initiated transactions.
 
