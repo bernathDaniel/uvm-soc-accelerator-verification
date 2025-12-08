@@ -24,7 +24,7 @@ This Verification environment validates a hardware accelerator with dual memory 
 
 - **Centralized configuration control:** Top Test Class provides unified control point for testbench behavior - agent mode selection (factory overrides), functional mode switching (MATMUL/CALCOPY), memory initialization policies (global and per-memory), coverage parameters, and sequence selection - enabling test customization without modifying component code.
 
-- **RTL register integration framework:** Complete UVM RAL files and APB transaction protocol prepared for integration with physical memory RTL modules (register files, control logic), enabling register-level verification when hardware implementations become available.
+- **RTL register integration framework:** Complete UVM RAL files and a simplified APB transaction protocol (cmd, cmd_valid, addr, data) prepared for integration with physical memory RTL modules (register files, control logic), enabling register-level verification when hardware implementations become available.
 
 ### Key Features
 
