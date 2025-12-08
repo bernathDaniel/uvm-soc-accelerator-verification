@@ -24,11 +24,11 @@ This Verification environment validates a hardware accelerator with dual memory 
 
 - **Centralized configuration control:** Top Test Class provides unified control point for testbench behavior - agent mode selection (factory overrides), functional mode switching (MATMUL/CALCOPY), memory initialization policies (global and per-memory), coverage parameters, and sequence selection - enabling test customization without modifying component code.
 
-- **Event-based transaction model:** Transactions decouple component responsibilities - monitors/drivers focus on protocol-specific behavior while transaction classes handle signal mapping, printing, and data management through virtual method hooks (do_print, do_copy, do_compare and more).
+- **RTL register integration framework:** Complete UVM RAL files and APB transaction protocol prepared for integration with physical memory RTL modules (register files, control logic), enabling register-level verification when hardware implementations become available.
 
 ### Key Features
 
-
+- **Event-based transaction model:** Transactions decouple component responsibilities - monitors/drivers focus on protocol-specific behavior while transaction classes handle signal mapping, printing, and data management through virtual method hooks (do_print, do_copy, do_compare and more).
 
 ## Documentation
 
