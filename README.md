@@ -34,7 +34,7 @@ This Verification environment validates a hardware accelerator with dual memory 
 
 - **Shared utility infrastructure:** Centralized package defining semantic type abstractions (memory selection, functional modes, policy enumerations) and compile-time parameters across 35 verification files. Eliminates magic numbers, enables configuration changes without code modification, and ensures consistent naming conventions testbench-wide.
 
-- 
+- **Self-documenting architecture:** Enables rapid code scanning and comprehension with minimal cognitive load. Method-based interfaces, semantic type abstractions, event-based modes (`set_e_mode("rd")`), and consistent patterns reduce comment requirements by ~75% - code clarity through explicit naming and predictable structure rather than explanatory documentation.
 
 ## Documentation
 
