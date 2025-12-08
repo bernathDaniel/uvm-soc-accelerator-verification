@@ -14,7 +14,7 @@ featuring a unified testbench architecture, dual-agent support, and integration-
 
 This Verification environment validates a hardware accelerator with dual memory interfaces: up to 8× single-port SRAMs (up to 1024×256b each) verified by the MEM agent, and a 32×32-bit general-purpose register file for control/status communication verified by the GPP agent.
 
-This verification environment validates a hardware accelerator with dual memory interfaces: up to 8× single-port SRAMs (up to 1024×256b each) verified by the MEM agent, and a 32×32-bit general-purpose register file for control/status communication verified by the GPP agent. Built for maximum flexibility and minimal complexity, the architecture enables rapid integration of diverse accelerator designs with minimal code changes.
+This verification environment validates a hardware accelerator with dual memory interfaces: up to 8× single-port SRAMs (up to 1024×256b each) verified by the MEM agent, and a 32×32-bit general-purpose register file for control/status communication verified by the GPP agent. Built for maximum flexibility and minimal component code complexity, the architecture enables rapid integration of diverse accelerator designs with minimal code changes.
 
 ### Architecture Highlights
 
