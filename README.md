@@ -22,13 +22,13 @@ Built for maximum flexibility and minimal component code complexity, the archite
 
 - **Memory sandbox:** Byte-level granularity with per-byte randomization (configurable ranges, signed values) and flexible initialization policies (random, file-based, uninitialized) per memory. Integrated write dump debugging with configurable limits enables targeted debug without testbench modifications.
 
-- **Centralized configuration control:** Top Test Class provides unified control point for testbench behavior - agent mode selection (factory overrides), functional mode switching (MATMUL/CALCOPY), memory initialization policies (global and per-memory), coverage parameters, and sequence selection - enabling test customization without modifying component code.
+- **Centralized configuration control:** Top Test Class provides unified control point for testbench behavior - agent mode selection (factory overrides), functional mode switching (MATMUL/CALCOPY), memory initialization policies (global and per-memory), coverage parameters, and sequence selection, enabling test customization without modifying component code.
 
 - **RTL register integration framework:** Complete UVM RAL files and a simplified APB transaction protocol (cmd, cmd_valid, addr, data) prepared for integration with physical memory RTL modules (register files, control logic), enabling register-level verification when hardware implementations become available.
 
 ### Key Features
 
-- **Event-based transaction model:** Simplifies component design by encapsulating event-specific signal handling (`rd`, `wr`, reset events) in transaction classes. Verification components use simple method calls without managing signal selection or event-specific logic.
+- **Event-based transaction model:** Simplifies component design by encapsulating event-specific signal handling (`rd`, `wr`, reset events) in transaction classes. Verification components use simple method calls without managing signal selection or event-specific logic directly.
 
 - **Custom debug infrastructure:** Replaces verbose UVM messaging with simplified, consistently-formatted output. Reduces cognitive load during extended debug sessions, enabling faster visual scanning and rapid iteration on bug resolution.
 
