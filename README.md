@@ -45,7 +45,11 @@ For detailed implementation architecture, see [`docs/UVM_Technical_Implementatio
 - Debug infrastructure and validation approach
 
 ## Author
-- **Daniel Bernath**
+**Daniel Bernath**
+B.Sc. Electrical Engineering (Nanoelectronics & Signal Processing)  
+Bar-Ilan University, 2025
 
 **Academic Supervisor:** Prof. Adam Teman  
 **Instructor:** Eliyahu Levi  
+
+[LinkedIn](https://linkedin.com/in/bernathdaniel) | [GitHub](https://github.com/bernathDaniel)
