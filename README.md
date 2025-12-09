@@ -36,6 +36,13 @@ Built for maximum flexibility and minimal component code complexity, the archite
 
 - **Self-documenting architecture:** Enables rapid code scanning and comprehension with minimal cognitive load. Method-based interfaces, semantic type abstractions, event-based modes (`set_e_mode("rd")`), and consistent patterns reduce comment requirements by ~75% - code clarity through explicit naming and predictable structure rather than explanatory documentation.
 
+## Technical Stack
+
+- **HDL:** SystemVerilog (UVM)
+- **Simulation:** Cadence Xcelium + SimVision
+- **Scripting:** Tcl, Shell
+- **Development Tools:** Git, Unix/Linux
+
 ## Documentation
 
 For detailed implementation architecture, see [`docs/UVM_Technical_Implementation.pdf`](docs/UVM_Technical_Implementation.pdf) (Chapter 4 from project documentation), which covers:
