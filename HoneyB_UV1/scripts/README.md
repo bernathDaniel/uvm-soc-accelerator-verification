@@ -29,3 +29,13 @@ Centralized utility functions for simulation control and formatted logging.
 **Purpose:** Abstraction layer for automation scripts, similar to UVM utility package philosophy - provides semantic functions to simplify higher-level scripting.
 
 **Usage:** Sourced by automation scripts via `source ../scripts/procedures.tcl -quiet`
+
+### `honeyb.tcl`
+Main automation control script with extensible mode framework.
+
+**Modes:**
+- **Simple Mode** - Single simulation run with parameters configured via utility package
+- **DSE Mode** - Design Space Exploration for memory configuration sweeps (see `honeyb_dse.tcl`)
+
+**Purpose:** Central entry point for simulation workflows, supporting both quick single runs and comprehensive regression testing.
+
