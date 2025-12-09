@@ -15,3 +15,17 @@ Main Xcelium run configuration file containing:
 - Source file list references (DUT and testbench)
 
 **Usage:** Aliased to `run_honey` command. Advanced invocation available via Tcl automation scripts (see below).
+
+## Tcl Automation Scripts
+
+### `procedures.tcl`
+Centralized utility functions for simulation control and formatted logging.
+
+**Key Procedures:**
+- `enics_msg` - Formatted message output with importance levels (high/medium/low)
+- `enics_init_honeyb` - Session initialization with timestamp and mode identification
+- `enics_start_dse_sim` - Design space exploration simulation launcher with parameter logging
+
+**Purpose:** Abstraction layer for automation scripts, similar to UVM utility package philosophy - provides semantic functions to simplify higher-level scripting.
+
+**Usage:** Sourced by automation scripts via `source ../scripts/procedures.tcl -quiet`
