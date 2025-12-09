@@ -40,19 +40,19 @@ Main automation control script with extensible mode framework.
 **Purpose:** Central entry point for simulation workflows, supporting both quick single runs and comprehensive regression testing.
 
 ### `honeyb_dse.tcl`
-Automated Design Space Exploration (DSE) for memory configuration analysis.
+Automated regression framework for memory configuration exploration.
 
 **Functionality:**
 - Parameter sweep across `NUM_MEMS` (up to 8) and `LOG2_LINES_PER_MEM` (up to 10 = 1024 lines)
-- Automated regression running multiple Xcelium simulations with DUT reconfiguration
-- Organized logging system (`dse_logs/xrun_mem_{NUM}_{LOG2}.log` per configuration)
+- Automated execution of multiple Xcelium simulations with DUT reconfiguration per parameter set
+- Organized logging system with separate log files per configuration
 - Progress tracking via `enics_msg` procedures
 
-**Purpose:** Enables PPA (Performance-Power-Area) trade-off analysis for Visual Transformer accelerator by sweeping memory configurations to identify optimal design points.
+**Purpose:** Systematic exploration of memory configuration design space with automated regression testing. Enables comparison of different memory architectures through organized simulation runs.
 
 **Usage:**
 ```tcl
-# Edit configuration lists in script:
+# Configure parameter sweep in script:
 set num_mems_list {2 4 8}
 set log2_lines_list {8 9 10}
 
@@ -60,6 +60,4 @@ set log2_lines_list {8 9 10}
 source ../scripts/honeyb_dse.tcl
 ```
 
-**Infrastructure Note:** Foundation for automated performance/area analysis - extensible to metrics extraction and comparative reporting.
-
-Logs generated in ../workspace/dse_logs/ (created automatically)
+Logs saved to `../workspace/dse_logs/` (created automatically).
