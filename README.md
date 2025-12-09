@@ -4,12 +4,6 @@ This repository contains the capstone project developed at the
 **Alexander Kofkin Faculty of Engineering, Bar-Ilan University**  
 **Nano-Electronics Department – EnICS Labs**  
 
-## Author
-- **Daniel Bernath**
-
-**Academic Supervisor:** Prof. Adam Teman  
-**Instructor:** Eliyahu Levi  
-
 ## Technical Overview
 
 This verification environment validates a hardware accelerator with dual memory interfaces: up to 8× single-port SRAMs (up to 1024×256b each) verified by the MEM agent, and a 32×32-bit general-purpose register file for control/status communication verified by the GPP agent.
@@ -49,3 +43,9 @@ For detailed implementation architecture, see [`docs/UVM_Technical_Implementatio
 - Memory agent dual-mode architecture
 - Key method implementations and design patterns
 - Debug infrastructure and validation approach
+
+## Author
+- **Daniel Bernath**
+
+**Academic Supervisor:** Prof. Adam Teman  
+**Instructor:** Eliyahu Levi  
