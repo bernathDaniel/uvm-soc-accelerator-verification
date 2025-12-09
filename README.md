@@ -16,6 +16,8 @@ This verification environment validates a hardware accelerator with dual memory 
 
 Built for maximum flexibility and minimal component code complexity, the architecture is aimed at rapid integration of diverse accelerator designs with minimal modification overhead of the ecosystem.
 
+
+
 ![UVM Verification Environment Architecture](docs/architecture_overview.png)
 *Complete UVM verification ecosystem showing agents, environment hierarchy, and signal flow*
 
