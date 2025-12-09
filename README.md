@@ -10,15 +10,12 @@ This repository contains the capstone project developed at the
 **Academic Supervisor:** Prof. Adam Teman  
 **Instructor:** Eliyahu Levi  
 
-It provides a **complete and scalable UVM-based verification environment** for SoC accelerator validation,
-featuring a unified testbench architecture, dual-agent support, and integration-ready RAL files.
-
 ## Technical Overview
+
+This verification environment validates a hardware accelerator with dual memory interfaces: up to 8× single-port SRAMs (up to 1024×256b each) verified by the MEM agent, and a 32×32-bit general-purpose register file for control/status communication verified by the GPP agent. Built for maximum flexibility and minimal component code complexity, the architecture is aimed at rapid integration of diverse accelerator designs with minimal modification overhead of the ecosystem.
 
 ![UVM Verification Environment Architecture](docs/architecture_overview.png)
 *Complete UVM verification ecosystem showing agents, environment hierarchy, and signal flow*
-
-This verification environment validates a hardware accelerator with dual memory interfaces: up to 8× single-port SRAMs (up to 1024×256b each) verified by the MEM agent, and a 32×32-bit general-purpose register file for control/status communication verified by the GPP agent. Built for maximum flexibility and minimal component code complexity, the architecture is aimed at rapid integration of diverse accelerator designs with minimal modification overhead of the ecosystem.
 
 ### Architecture Highlights
 
