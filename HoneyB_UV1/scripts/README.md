@@ -61,3 +61,5 @@ source ../scripts/honeyb_dse.tcl
 ```
 
 **Infrastructure Note:** Foundation for automated performance/area analysis - extensible to metrics extraction and comparative reporting.
+
+Logs generated in ../workspace/dse_logs/ (created automatically)
