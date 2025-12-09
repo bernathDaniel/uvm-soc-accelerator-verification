@@ -43,7 +43,7 @@ Built for maximum flexibility and minimal component code complexity, the archite
 - **Scripting:** Tcl, Shell
 - **Development Tools:** Git, Unix/Linux
 
-Simulation workflow automation scripts documented in [`HoneyB_UV1/scripts/`](HoneyB_UV1/scripts/README.md).
+Simulation workflow automation scripts documented in [`HoneyB_UV1/scripts/`](HoneyB_UV1/scripts/).
 
 ## Documentation
 
