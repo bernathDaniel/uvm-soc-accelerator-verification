@@ -14,8 +14,6 @@ Main Xcelium run configuration file containing:
 - SimVision GUI toggle (`-gui` flag)
 - Source file list references (DUT and testbench)
 
-**Usage:** Aliased to `run_honey` command. Advanced invocation available via Tcl automation scripts (see below).
-
 ## Tcl Automation Scripts
 
 ### `procedures.tcl`
@@ -27,8 +25,6 @@ Centralized utility functions for simulation control and formatted logging.
 - `enics_start_dse_sim` - Design space exploration simulation launcher with parameter logging
 
 **Purpose:** Abstraction layer for automation scripts, similar to UVM utility package philosophy - provides semantic functions to simplify higher-level scripting.
-
-**Usage:** Sourced by automation scripts via `source ../scripts/procedures.tcl -quiet`
 
 ### `honeyb.tcl`
 Main automation control script with extensible mode framework.
