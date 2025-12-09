@@ -2,7 +2,7 @@
 
 This repository contains the capstone project developed at the  
 **Alexander Kofkin Faculty of Engineering, Bar-Ilan University**  
-**Nano-Electronics Department – EnICS Labs**  
+**Nanoelectronics Department – EnICS Labs**  
 
 ## Technical Overview
 
