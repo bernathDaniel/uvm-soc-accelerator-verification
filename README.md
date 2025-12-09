@@ -46,6 +46,7 @@ For detailed implementation architecture, see [`docs/UVM_Technical_Implementatio
 
 ## Author
 **Daniel Bernath**
+
 B.Sc. Electrical Engineering (Nanoelectronics & Signal Processing)  
 Bar-Ilan University, 2025
 
