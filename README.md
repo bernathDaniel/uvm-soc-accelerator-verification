@@ -43,6 +43,8 @@ Built for maximum flexibility and minimal component code complexity, the archite
 - **Scripting:** Tcl, Shell
 - **Development Tools:** Git, Unix/Linux
 
+Simulation workflow automation scripts available in [`scripts/`](scripts/).
+
 ## Documentation
 
 For detailed implementation architecture, see [`docs/UVM_Technical_Implementation.pdf`](docs/UVM_Technical_Implementation.pdf) (Chapter 4 from project documentation), which covers:
